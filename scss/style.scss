@@ -1,0 +1,366 @@
+/*INDEX*/
+.fondo-gral {
+     background-color: black;
+     background-image: url(img/fondo-rajem.jpeg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-position: 44% 41%;
+     background-size:cover;
+    }
+    
+    
+    
+    
+    .nav {
+        padding:2px;
+        display: flex;
+        background-color:black;
+        border-bottom:  5px solid rgb(101, 74, 222);
+    }
+.nav div {
+        display: flex;
+        display: inline;
+        margin: 7px;   
+    }
+.inicio{
+        color: white;
+        margin-right: 4px;
+    } /*ENCUADRE*/
+.boton-nav {
+        color:white
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+.cabeza-index{
+    padding: 15px;
+    background-color: bisque;
+    }
+.cabeza-index div{
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 7px;   
+    }
+.logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+    }
+.cabeza-index p {
+        font-weight: bold;
+        font-size: 15px;
+        display: inline-block;
+    }
+    
+    
+    
+    
+    
+    
+    
+.cartel-index{
+        display:block;
+        padding:2px;
+        background-color:rgb(62, 36, 177);
+        border: 2px solid rgb(62, 36, 177 );
+        opacity: .8;
+        text-align: center;
+        margin-top: 120px;
+    }
+.cartel-index h1 {
+        font-style: italic;
+    }
+.cartel-index h3 {
+        font-style: italic;
+    }
+    
+.link-fb {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        margin-right: 17px;
+    }
+.link-ig {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        margin-left: 17px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+.invit {
+        display:block;
+        padding:20px;
+        background-color:rgb(32, 31, 31);
+        border: 2px solid rgb(32, 31, 31);
+        opacity: .9;
+        text-align: center;
+        margin-top: 300px;
+        margin-bottom: 400px;
+    }
+.invit p {
+        margin-bottom: 30px;
+        text-justify:auto;
+        font-size: 15px;
+    }
+.invit strong {
+        font-size: 17px;
+        font-style: italic;
+    }
+    
+.mas {
+        display:block;
+        padding:20px;
+        background-color:rgb(32, 31, 31);
+        border: 2px solid rgb(32, 31, 31);
+        opacity: .9;
+        text-align: center;
+        margin-bottom: 400px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /*NOSOTROS NOSOTROS NOSOTROS*/
+.fondo-nosotros{
+            background-color: black;
+            background-image: url(img/fondo-nosotros.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position: auto;
+            background-size: 100%
+        }
+    
+    
+.cabeza-nosotros{
+        padding: 15px;
+        background-color: bisque;
+        display:block;
+        text-align: center;
+    }
+.map{
+        max-width: 360px;
+    }
+.sobre-nosotros{
+        padding:2px;
+        background-color: bisque;
+        opacity: .8;
+        
+    
+    }
+.pastores{
+        padding:2px;
+        background-color: bisque;
+        opacity: .8;
+        padding: 15px;
+    
+        display:block;
+        text-align: center;
+    }  
+    
+.perfil{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-right: 10%;
+        vertical-align: text-bottom;
+    }
+    
+    
+    
+    
+    
+    
+    /*EVENTOS EVENTOS EVENTOS*/
+.fondo-evento{
+        background-color: black;
+        background-image: url(img/fondo-eventos.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: 44% 41%;
+        background-size:cover;
+    }
+    
+.cabeza-eventos{
+        padding: 15px;
+        background-color: bisque;
+        opacity: .8;
+        display:block;
+        text-align: center;
+    }
+    
+#display-eventos{
+        display: inline-block;
+        align-content: center;
+    }
+    
+#display-eventos div {
+        display: inline-block;
+        align-content: center;
+    }
+.lista{
+        list-style: none;
+        padding: 1%;
+        background-color: black;
+        opacity: .8;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*MUSICA*/
+.cabeza-musica {
+        padding: 15px;
+        background-color: bisque;
+        display:block;
+        text-align: center;
+        border: black 1px solid;
+    }
+.cancion-semana {
+        padding: 20px;
+        background-color:azure;
+        text-align: center;
+        margin-bottom: 5px;
+        
+    }
+.boton{
+        padding: 3px 20px;
+        text-decoration: none;
+        font-weight: 800;
+        border: 2px solid black;
+        border-radius: 5px;
+        cursor: pointer;
+        background: radial-gradient(circle, magenta, white);
+        transition: background-color 3s;
+    }
+.boton:hover{
+        background: rgb(153,94,181);
+        background: linear-gradient(0deg, rgba(153,94,181,1) 0%, rgba(183,130,59,1) 100%);
+        
+    }
+.musicos{
+        margin-top: 100px;
+        padding: 2px;
+        width: 500px;
+        height:800px;
+        background-color:darkslateblue;
+        opacity: .8;
+    }
+.musicos div {
+        display: inline-block;
+        align-content:space-between;
+        margin: 25px;
+        margin-top: 10px;
+    }
+.foto-musicos {
+    
+        background: lightblue;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+.sobre-grupo{
+        padding: auto;
+        background-color: bisque;
+        opacity: .8;
+        
+    }
+.carousel {
+        max-width: 600px;
+        max-height: 600px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 40px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*GALERIA*/
+.cabeza-galeria {
+        padding: 15px;
+        background-color: bisque;
+        opacity: .8;
+        display:block;
+        text-align: center;
+    }
+.fotos {
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap:wrap;
+        background-color:cornflowerblue;
+        padding:10px;
+        border:4px solid black;
+        }
+.fotos div {
+            background-color: antiquewhite;
+            width: 100px;
+            margin:20px;
+            text-align:center;
+            line-height: 150px;
+            font-size:25px;
+            border:3px solid black; }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*FOOTER*/
+.foot-container{
+        display:flex;
+        padding:15px;
+        background-color:#141414;
+        justify-content: space-between;
+    }
+.fb-footer {
+        width: 24px;
+        height: 24px;
+        border-radius: 12px;
+        margin-left: 17px;
+    }
+.ig-footer {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        margin-left: 17px;
+    }
+.enlaces-footer {
+        display:flex;
+        flex-direction: row-reverse;
+        margin-right: 50px;
+    }
